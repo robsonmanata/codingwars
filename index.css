@@ -6,14 +6,15 @@ p{
   color: #d1e4f3;
 }
 button{
-background-color: antiquewhite;
+background-color: rgb(250, 248, 246);
+height: 35px;
 
 }
 div{
-  background-image: url(https://www.ishn.com/ext/resources/900x550/airplane-plane-flight-900.jpg?1583412590);
+  background-image: url(https://www.popsci.com/uploads/2023/02/10/rae-galatas-8NqkDS4gNKs-unsplash.jpg?auto=webp&width=1440&height=810);
  display: flex;
- width: 70%;
- margin-left: 15%;
+ width: 40%;
+ margin-left: 30%;
  justify-content: center;
   align-items: center;
 
@@ -23,12 +24,18 @@ input{
   background-color:transparent;
   border-color: #d1e4f3;
   color: #d1e4f3;
+  height: 35px;
+  width: 250px;
+  margin-bottom:15px;
 
 }
 select{
   background-color:transparent;
   border-color: #d1e4f3;
   color: #d1e4f3;
+  height: 35px;
+  width: 150px;
+  margin-bottom:15px;
 }
 .maindiv {
   justify-content: center;
