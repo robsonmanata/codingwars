@@ -8,7 +8,9 @@ function shownum() {
     alert(z[i])
  }
 }
+
 function formdetail(){
+    event.preventDefault();
     var formitems = document.getElementById("myform");
     var i;
     var item =""
@@ -16,10 +18,5 @@ function formdetail(){
         item += formitems.elements[i].value + "<br>";
     }
    
-    document.getElementById("mzform").innerHTML=item
-
-}
-function removedetail(){
-   document.getElementById("mzform").innerHTML = ""
-   
+    document.getElementById("mzform").innerHTML=item; 
 }
