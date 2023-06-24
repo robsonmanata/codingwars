@@ -3,7 +3,7 @@ h1{
     text-align: center;
 }
 p{
-  color: #d1e4f3;
+  color: #012743;
 }
 button{
 background-color: rgb(250, 248, 246);
@@ -11,7 +11,7 @@ height: 35px;
 
 }
 div{
-  background-image: url(https://www.popsci.com/uploads/2023/02/10/rae-galatas-8NqkDS4gNKs-unsplash.jpg?auto=webp&width=1440&height=810);
+  background-image: url(https://img.freepik.com/free-vector/flat-plane-background_23-2148042403.jpg?w=900&t=st=1687615684~exp=1687616284~hmac=e158e5b9c1ae5059946e0656e69bd3c784acd0021cb3fb292e94a3c635347c78);
  display: flex;
  width: 40%;
  margin-left: 30%;
@@ -26,7 +26,7 @@ div{
 input{
   background-color:transparent;
   border-color: #d1e4f3;
-  color: #d1e4f3;
+  color: #012743;
   height: 35px;
   width: 250px;
   margin-bottom:15px;
@@ -35,7 +35,7 @@ input{
 select{
   background-color:transparent;
   border-color: #d1e4f3;
-  color: #d1e4f3;
+  color: #012743;
   height: 35px;
   width: 150px;
   margin-bottom:15px;
