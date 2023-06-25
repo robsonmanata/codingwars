@@ -25,6 +25,6 @@ function errmesage(){
         alert(c+k)
         }
         catch(e){
-        alert("fuck you")
+        alert(e.message)
         }
 }
