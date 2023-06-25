@@ -10,7 +10,7 @@ background-color: rgb(250, 248, 246);
 height: 35px;
 
 }
-div{
+#div1{
   background-image: url(https://img.freepik.com/premium-photo/summer-time-background-model-airplane-pink-camera-blue-background_331309-1477.jpg?w=900);
  display: flex;
  width: 70%;
@@ -20,8 +20,12 @@ div{
 
   
 }
-.thdiv{
-  background-color:red;
+#div2{
+  background-color:white;
+  border-radius:5px;
+  border-style: solid;
+  
+
 }
 input{
   background-color:transparent;
