@@ -21,12 +21,16 @@ height: 35px;
   
 }
 #div2{
-  background-color:white;
-  border-radius:5px;
-  border-style: solid;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
   
-
+  
 }
+#div2 >p{
+  color: black;
+}
+
 input{
   background-color:transparent;
   border-color: #d1e4f3;
@@ -44,45 +48,4 @@ select{
   width: 150px;
   margin-bottom:15px;
 }
-.maindiv {
-  justify-content: center;
-  align-items: center;
-  background-color: #e43131;
-  width: 100vw;
-}
 
-.responsive{
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-background-color: green;
-display: flex;
-align-items: center;
-height: 500px;
-
-
-}
-.responsive > div {
-    
-        width: 25%;
-        margin: 10px;
-        height: 20%;
-        background-color: red;
-        text-align: center;
-        
-        
-}
-
-
-/*@media screen and (max-width: 600px) {
-    .innerbox {
-      flex-basis: 100%;
-    }
-    .innerbox1 {
-        flex-basis: 100%;
-      }
-      .innerbox2 {
-        flex-basis: 100%;
-      }
-      .innerbox3{
-        flex-basis: 100%;
-      }
-}*/

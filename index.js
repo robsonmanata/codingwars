@@ -20,3 +20,11 @@ function formdetail(){
    
     document.getElementById("mzform").innerHTML=item; 
 }
+function errmesage(){
+    try{
+        alert(c+k)
+        }
+        catch(e){
+        alert("fuck you")
+        }
+}
