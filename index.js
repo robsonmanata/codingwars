@@ -25,6 +25,6 @@ function errmesage(){
         alert(c+k)
         }
         catch(e){
-        alert(e.message)
+        alert("practice makes perfect ")
         }
 }
