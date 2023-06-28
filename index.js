@@ -20,11 +20,25 @@ function formdetail(){
    
     document.getElementById("mzform").innerHTML=item; 
 }
-function errmesage(){
-    try{
-        alert(c+k)
-        }
-        catch(e){
-        alert("practice makes perfect ")
-        }
+
+//Asychronus javascript
+function displaydata(item){
+    document.getElementById("mzform").innerHTML=item;
 }
+
+const url = 'https://timetable-lookup.p.rapidapi.com/TimeTable/BOS/LAX/20191217/';
+const options = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': 'fafd32854dmshe40ade0a301bae0p1703adjsndc5798bc1531',
+		'X-RapidAPI-Host': 'timetable-lookup.p.rapidapi.com'
+	}
+};
+async function start(){
+    const response = await fetch(`https://pokeapi.co/api/v2/pokemon/ditto`);
+	const result = await response.text();
+	console.log(result);
+
+}
+start();
+	
