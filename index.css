@@ -32,6 +32,9 @@ height: 35px;
 #div2 >p{
   color: black;
 }
+  #thisid {
+    background-color: black
+  }
 
 input{
   background-color:transparent;

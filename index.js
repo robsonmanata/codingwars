@@ -35,9 +35,9 @@ const options = {
 	}
 };
 async function start(){
-    const response = await fetch(`https://pokeapi.co/api/v2/pokemon/ditto`);
+    const response = await fetch(url, options);
 	const result = await response.text();
-	console.log(result);
+	displaydata(result);
 
 }
 start();
